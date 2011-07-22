@@ -1,0 +1,25 @@
+{
+  "name": "currency-converter",
+  "bpm": "1.0.0",
+  "bpm:build": {
+    
+    "jqmob/bpm_libs.js": {
+      "directories": ["app"],
+      "minifier": "uglify-js"
+    },
+    
+    "bpm_libs.js": {
+      "directories": [],
+      "minifier": "uglify-js"
+    },
+
+    "bpm_styles.css": {
+      "directories": [
+        "css"
+      ]
+    }
+  },
+  "dependencies": {
+    "jquery-mobile": ">= 0-pre"
+  }
+}
